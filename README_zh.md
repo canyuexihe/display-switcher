@@ -1,3 +1,5 @@
+<p align="center"><img src="logo/app-icon.png" width="160" alt="DisplaySwitcher logo"></p>
+
 # DisplaySwitcher 显示器布局切换器
 
 一个原生 macOS 菜单栏小工具：一键保存和切换显示器布局（排列方式 + 分辨率）。预设绑定具体物理显示器，菜单随当前接入的显示器自动变化，重新插回显示器时自动恢复上次使用的布局。

@@ -1,3 +1,5 @@
+<p align="center"><img src="logo/app-icon.png" width="160" alt="DisplaySwitcher logo"></p>
+
 # DisplaySwitcher
 
 A native macOS menu bar app for saving and switching display layouts (arrangement + resolution) with one click. Presets are bound to specific physical displays, the menu adapts to whichever displays are currently connected, and your last-used layout is restored automatically when you plug displays back in.
