@@ -1,0 +1,9 @@
+# 运行时产物与本地数据
+bin/
+layouts/
+state.json
+*.app/
+backup-args/
+
+# macOS
+.DS_Store
