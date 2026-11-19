@@ -11,6 +11,7 @@ A native macOS menu bar app for saving and switching display layouts (arrangemen
 - **Menu bar app** — click the icon to see all presets available for the currently connected displays; the active one is checkmarked
 - **One-click switching** — arrangement (side-by-side / stacked / multi-display) and per-display resolution/refresh rate are applied together
 - **Save current layout** — name and save the current arrangement of *all* connected displays, resolutions included
+- **Preset manager window** — browse every preset grouped by display combination (resolution, refresh rate, arrangement); the active preset is highlighted. Rename presets (auto-restore records follow) or delete ones you no longer need (their auto-restore records are cleaned up too)
 - **Per-display presets** — each preset records the hardware IDs of the displays it was saved with; presets whose displays aren't connected are hidden from the menu
 - **Multi-display support** — any number of displays; a preset appears only when all of its displays are online
 - **Auto-restore on plug-in** — when the set of connected displays changes, the last-used preset for that combination is applied automatically (resolution-only changes are ignored)
@@ -46,6 +47,7 @@ Click the display icon in the menu bar:
 | Item | Action |
 |---|---|
 | Preset names | Click to switch; ✓ marks the currently active layout |
+| 管理预设… (Manage presets…) | Open the manager window: all presets grouped by display combination, with rename and delete |
 | 保存当前布局… (Save current layout…) | Name and save the current arrangement + resolutions of all connected displays |
 | 登录时启动 (Launch at login) | Toggle auto-start |
 | 退出 (Quit) | Quit the app |
